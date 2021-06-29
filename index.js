@@ -45,7 +45,7 @@ mongoose.connect(config.db, config.urlParser, (err,res)=>{
     console.log('conexion a la BD exitosa')
 
     app.listen(config.port, ()=>{
-        console.log(`Ejecutando en http://localhost:${config.port}`)
+        //console.log(`Ejecutando en http://localhost:${config.port}`)
     })
 
 })
